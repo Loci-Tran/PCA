@@ -10,9 +10,9 @@ To perform PCA on your dataset, follow these steps:
 2. Fit the PCA on the dataset array.
 3. Visualize the explained variance and the PCA projection.
 
-To understand PCA concept, you may refer this.
+  To understand PCA concept, you may refer this.
 
-Here is the Python code to accomplish this:
+Here is the Python code to accomplish [this]([https://link-url-here.org](https://github.com/Loci-Tran/PCA/blob/ML2/PCA_concept.md)):
 ```python
 # Assuming X is your data matrix
 pca = PCA(n_components=2)
