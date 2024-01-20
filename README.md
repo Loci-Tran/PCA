@@ -20,8 +20,11 @@ pca.fit(np.array(X))
 pca.visualization(explained_variace=True, PCA_projection=True)
 X_proj = pca.X_proj   # Projected data
 PC1_X = pca.components[:, 0]  # First principal component
+```
 
+---
 **Note:** This repo was a homework practice for ML class.
+
 ```bibtex
 @author {
   author       = {Loci Tran},
@@ -29,5 +32,3 @@ PC1_X = pca.components[:, 0]  # First principal component
   year         = {2023},
 }
 ```
-
-
